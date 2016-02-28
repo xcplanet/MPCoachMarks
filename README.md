@@ -222,11 +222,11 @@ If you'd like to take a certain action when a specific coach mark comes into vie
 
 *Note: All of the methods are optional. Implement only those that are needed.*
 
-- `- (void)coachMarksView:(MPCoachMarksView*)coachMarksView willNavigateToIndex:(NSUInteger)index`
-- `- (void)coachMarksView:(MPCoachMarksView*)coachMarksView didNavigateToIndex:(NSUInteger)index`
-- `- (void)coachMarksViewWillCleanup:(MPCoachMarksView*)coachMarksView`
-- `- (void)coachMarksViewDidCleanup:(MPCoachMarksView*)coachMarksView`
-- `- (void)coachMarksViewDidClicked:(MPCoachMarks *)coachMarksView atIndex:(NSInteger)index`
+- `- (void)coachMarksView:(MPCoachMarks*)coachMarksView willNavigateToIndex:(NSUInteger)index`
+- `- (void)coachMarksView:(MPCoachMarks*)coachMarksView didNavigateToIndex:(NSUInteger)index`
+- `- (void)coachMarksViewWillCleanup:(MPCoachMarks*)coachMarksView`
+- `- (void)coachMarksViewDidCleanup:(MPCoachMarks*)coachMarksView`
+- `- (void)coachMarksViewDidClicked:(MPCoachMarks*)coachMarksView atIndex:(NSInteger)index`
 
 ## License
 
